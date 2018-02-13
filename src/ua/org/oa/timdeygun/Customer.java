@@ -14,7 +14,7 @@ public class Customer {
 	/**
 	 * manually created constructor that sets up information about customer.
 	 */
-	Customer(String name, float currentCash) {
+	public Customer(String name, float currentCash) {
 
 		this.name = name;
 		this.currentCash = currentCash;
