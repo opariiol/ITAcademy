@@ -34,8 +34,5 @@ public class DataForSimpleNumbers extends Thread{
         }
         return true;
     }
-
-
-
 }
 
