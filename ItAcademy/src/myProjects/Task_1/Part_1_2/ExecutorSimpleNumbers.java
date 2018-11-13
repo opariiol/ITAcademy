@@ -25,7 +25,7 @@ public class ExecutorSimpleNumbers implements Runnable {
         }
     }
 
-    public static boolean checkSimpleNumber (int data){ // we check does it simple number
+    public static boolean checkSimpleNumber (int data){ // we check does it simple number or not
         for (int i = 2; i <= data/2; i++) {
             if((data % i == 0) & (i % 2 == 0)) return false;
         }
