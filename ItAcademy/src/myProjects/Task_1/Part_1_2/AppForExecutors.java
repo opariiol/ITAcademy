@@ -9,13 +9,13 @@ import java.util.concurrent.Executors;
 
 public class AppForExecutors {
     public static void main(String[] args) {
-        // input data
+        // input data type
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter first number of interval: ");
         int firstNumber = scan.nextInt(); // the first element of the list of numbers
         System.out.println("Enter last number of interval: ");
         int lastNumber = scan.nextInt(); // the last element of the list of numbers
-        System.out.println("Enter count of threads: ");
+        System.out.println("Enter the count of threads: ");
         int countThreads = scan.nextInt(); // we decide, how many threads we will start in this case
         int lastNumberInInterval = lastNumber/countThreads; // this will be last number in every thread
 
