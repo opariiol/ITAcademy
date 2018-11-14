@@ -15,7 +15,7 @@ public class ExecutorSimpleNumbers implements Runnable {
     }
 
     @Override
-    public void run (){
+    public void run (){ //method for adding simple numbers to list
         while (firstNum <= lastNum){
             boolean isPrime = checkSimpleNumber(firstNum);
             if (isPrime){

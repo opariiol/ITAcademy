@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class AppForSimpleThread {
 
     public static void main(String[] args) {
-        // input data of numbers
+        // input data
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter first number of interval: ");
         int firstNumber = scan.nextInt(); // the first element of the list of numbers

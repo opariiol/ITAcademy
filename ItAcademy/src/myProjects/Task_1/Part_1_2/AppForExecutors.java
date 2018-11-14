@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 
 public class AppForExecutors {
     public static void main(String[] args) {
-        // input data
+        // input data type
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter first number of interval: ");
         int firstNumber = scan.nextInt(); // the first element of the list of numbers
