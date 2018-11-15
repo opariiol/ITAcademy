@@ -15,7 +15,7 @@ public class DataForSimpleNumbers extends Thread{
         this.simpleNumberList = simpleNumberList;
     }
 
-    @Override
+    @Override //method, where we develop our storage for simple numbers
     public void run (){
         while (firstNum <= lastNum){
             boolean isPrime = checkSimpleNumber(firstNum);
@@ -28,7 +28,7 @@ public class DataForSimpleNumbers extends Thread{
 
     }
 
-    public static boolean checkSimpleNumber (int data){ // we check does it simple number
+    public static boolean checkSimpleNumber (int data){ // we check does it simple number or no
         for (int i = 2; i <= data/2; i++) {
             if((data % i == 0) & (i % 2 == 0)) return false;
         }

@@ -52,8 +52,7 @@ public class AppForSimpleThread {
             e.printStackTrace();
         }
 
-        System.out.println( "Our List of data:" + Arrays.toString(simpleNumbers)); // and there I don't understand,
-                                                                                    // why I have not one array
+        System.out.println( "Our List of data:" + Arrays.toString(simpleNumbers)); // we write all data in array
 
     }
 
